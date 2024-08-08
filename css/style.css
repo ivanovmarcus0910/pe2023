@@ -1,0 +1,167 @@
+.header {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.header p{
+    color:#098B0E;
+}
+#content-1{
+    width: 40%;
+    font-size: 35px;
+    font-family: Ephesis;
+    align-self: center;
+    font-weight:lighter;
+    margin-left: 30px;
+}
+#content-2{
+    width: 30%;
+    font-size: 40px;
+    font-family: Ephesis;
+}
+.header-img{
+    width: 30%;
+    align-self: center;
+
+}
+.header-img img{
+    width: 40%;
+    align-items: center;
+    box-sizing: border-box;
+    align-self: center;
+    margin-left: 10%;
+   border: 5px solid;
+   border-radius: 100%;
+   border-color: rgb(104, 102, 102);
+}
+/* .menu{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(109, 2, 2);
+
+}*/
+.menu {
+    width: 100%;
+    height: 30px;
+    background-color: #098B0E;
+    
+} 
+.menu ul{
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    color: rgb(255, 255, 255);
+}
+.banner {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+}
+.banner img {
+    width: 50%;
+}
+
+.product-content {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.product-content .product {
+    width: 40%;
+}
+.product-content .product img{
+    width: 100%;
+    height: 330px;
+}
+.product-content .product-detail {
+    width: 60%;
+    margin-left: 20px;
+}
+.product-detail h2 {
+    color: violet;
+}
+.product-detail ul {
+    color: aqua;
+    
+    font-style: italic;
+}
+.footer {
+    background-color: #098B0E;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+.box {
+width: 25%;
+margin-left: 22%
+}
+.box-header {
+    background-color: #098B0E;
+    color: white;
+    text-align: center;
+}
+.box-header p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.box-body {
+    margin-top: 0px;
+}
+.box-body ul{
+    margin-top: 0px;
+    list-style: none;
+    background-color: gray;
+    padding-left: 0px;
+    
+}
+.box-body ul li{
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.name-items {
+    width: 85%;
+}
+.box-order{
+    display: flex;
+    justify-content:space-around;
+}
+.box-order-detail{
+    width: 30%;
+}
+.button{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    box-sizing: border-box;
+}
+button{
+    width: 6%;
+}
+.button p{
+    margin: 0px;
+}
+.total{
+    background-color: rgb(217, 89, 43);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
